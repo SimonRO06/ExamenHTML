@@ -282,35 +282,15 @@ a:active {
 }
 
 @media (min-width: 800px) {
-  .foods {
-    display: grid;
-    h1 {
-        font-size: 50px;
-        text-align: center;
-        color: rgb(255, 113, 57);
-    }
-    h2 {
-        color: rgb(255, 113, 57);
-    }
-    p {
-        font-size: 20px;
-        color: white;
-        text-align: center;
-    }
-    a {
-        text-decoration: none;
-        color: white;
-        background-color: rgb(255, 113, 57);
-        padding: 5px 10px;
-        position: relative;
-        left: 34%;
-    }
-    img {
-        position: relative;
-        left: 50%;
-        transform: translate(-50%);
-        width: 250px;
-        height: 250px;
-    }
-}
+  .food-menu {
+    display: flex;
+  }
+  .services {
+    display: flex;
+  }
+  .information {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
 }
